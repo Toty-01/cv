@@ -18,11 +18,13 @@ li {
   list-style-type: none;
 }
 /*--------------------HEADER------------------------*/
-.navbar {
+#navbar {
   background-color: #fafafa;
+  top: 0;
   opacity: 0.9;
-  height: 42px;
-  transition: 0.7s;
+  height: 52px;
+  width: 100%;
+  transition: top 0.9s;
 }
 .navbar-nav {
   width: 80% !important;
@@ -31,16 +33,74 @@ li {
 }
 header {
   text-align: center;
-  height: 100vh;
+  height: 115vh;
   background: url(media/header.jpg) no-repeat fixed 50% 50%;
   background-size: cover;
 }
+.header-content{
+  padding-top: 6rem;
+}
 .photo > img {
   width: 150px;
+  border-radius: 50%;
 }
 h1 {
   padding: 90px 0 10px 0;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 4.3em;
   text-transform: uppercase;
+}
+#line {
+  height: 2px;
+  background-color: #b3aca7;
+  width: 25%;
+  margin: 0 auto;
+}
+h2 {
+  padding: 20px 0 50px 0;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+.presentation {
+  height: 180px;
+  margin-top: 20px;
+}
+.infos {
+  padding: 15px 0;
+  border: 2px solid #b3aca7;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 2rem;
+}
+header .button {
+   margin: 0 auto;
+}
+header .button a {
+  border: 2px solid black;
+  background-color: grey;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 0.5em 1em;
+  border-radius: 0.5rem;
+}
+
+header .button:hover a {
+  background: #b3aca7;
+  color: #283655;
+  transition: all 0.6s ease-in-out;
+  text-decoration: none;
+}
+/*--------------------Langages------------------------*/
+#langages {
+  padding: 60px 60px 120px 40px;
+  margin: 4rem 0 2rem 6%;
+  height: 620px;
+  width: 80%;
+  max-width: 800px;
+  background: rgba(120,120,120,0.84);
+  background: linear-gradient(88deg,rgba(120,120,120,0.84) 30%, rgba(212,211,211,0.46) 100%);
+  background: -webkit-linear-gradient(88deg,rgba(120,120,120,0.84) 30%, rgba(212,211,211,0.46) 100%);
+  background: -moz-linear-gradient(88deg,rgba(120,120,120,0.84) 30%, rgba(212,211,211,0.46) 100%);
+  clip-path: polygon(0 4%, 100% 0, 96% 100%, 0 95%);
 }
