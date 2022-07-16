@@ -33,12 +33,12 @@ li {
 }
 header {
   text-align: center;
-  height: 115vh;
+  height: 110vh;
   background: url(media/header.jpg) no-repeat fixed 50% 50%;
   background-size: cover;
 }
 .header-content{
-  padding-top: 6rem;
+  padding-top: 4.5rem;
 }
 .photo > img {
   width: 150px;
@@ -95,12 +95,86 @@ header .button:hover a {
 #langages {
   padding: 60px 60px 120px 40px;
   margin: 4rem 0 2rem 6%;
-  height: 620px;
+  height: 700px;
   width: 80%;
   max-width: 800px;
   background: rgba(120,120,120,0.84);
   background: linear-gradient(88deg,rgba(120,120,120,0.84) 30%, rgba(212,211,211,0.46) 100%);
   background: -webkit-linear-gradient(88deg,rgba(120,120,120,0.84) 30%, rgba(212,211,211,0.46) 100%);
   background: -moz-linear-gradient(88deg,rgba(120,120,120,0.84) 30%, rgba(212,211,211,0.46) 100%);
-  clip-path: polygon(0 4%, 100% 0, 96% 100%, 0 95%);
+  clip-path: polygon(0 4%, 100% 0, 94% 100%, 0 95%);
+}
+#langages .bar {
+  padding: 4px 0 4px 0;
+  letter-spacing: 0.1em;
+}
+.bar img {
+  margin-top: -0.2em;
+}
+
+/*--------------------FORMATION------------------------*/
+#formation {
+  position: relative;
+  float: right;
+  margin-right: 4%;
+  margin-bottom: 4rem;
+  padding: 60px 0 60px 150px;
+  width: 70%;
+  max-width: 800px;
+  background: #c4c4c4;
+  background: linear-gradient(90deg,#c4c4c4 0%, rgba(148,122,122,0.51) 40%, #a19f9f 80%);
+  background: -webkit-linear-gradient(90deg,#c4c4c4 0%, rgba(148,122,122,0.51) 40%, #a19f9f 80%);
+  background: -moz-linear-gradient(90deg,#c4c4c4 0%, rgba(148,122,122,0.51) 40%, #a19f9f 80%);
+  clip-path: polygon(0 0, 100% 4%, 100% 97%, 6% 100%);
+}
+#autodidacte {
+  padding: 20px 0 0 10%;
+}
+#std {
+  padding: 50px 0 0 25%;
+}
+#yt {
+  padding: 50px 0 0 40%;
+}
+#formation h4 {
+  font-weight: bold;
+  letter-spacing: 0.08em;
+  padding-bottom: 10px;
+  color: #005978;
+  text-shadow: -1px -1px 1px #3584D5;
+}
+.counter {
+  display: flex;
+  text-align: center;
+}
+.data {
+  border: 1.5px solid #00599e;
+  border-radius: 0.5rem;
+  width: 120px;
+  margin: 0 4%;
+}
+.counter-value {
+  font-size: 2.5rem;
+}
+.data-span {
+  font-size: 1.8em;
+}
+
+/*--------------Mobile screen------------------*/
+@media screen and (max-width: 500px) {
+  .header-content {
+    padding: 1rem;
+  }
+  .row > .infos {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .messsage-typed {
+    padding-top: 2rem;
+    height: 170px;
+  }
+  #formation {
+    padding: 60px 0 0 20px;
+    height: 700px;
+  }
 }
