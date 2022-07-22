@@ -22,7 +22,7 @@ li {
   background-color: #fafafa;
   top: 0;
   opacity: 0.9;
-  height: 52px;
+  height: 55px;
   width: 100%;
   transition: top 0.9s;
 }
@@ -94,7 +94,7 @@ header .button:hover a {
 /*--------------------Langages------------------------*/
 #langages {
   padding: 60px 60px 120px 40px;
-  margin: 4rem 0 2rem 6%;
+  margin: 4rem 0 4rem 6%;
   height: 700px;
   width: 80%;
   max-width: 800px;
@@ -159,6 +159,66 @@ header .button:hover a {
 .data-span {
   font-size: 1.8em;
 }
+/*----------------------------Parcours--------------------------------*/
+#parcours {
+  max-width: 800px;
+  margin: 840px auto 100px auto;
+  padding: 40px 30px 80px 30px;
+  background: url(./media/parcours.jpg) no-repeat fixed 50% 25%;
+  background-size: cover;
+  border-radius: 8px;
+  box-shadow: -1px -1px 8px #283655;
+}
+#parcours h3 {
+  margin-left: 33%;
+  font-size: 2rem;
+  padding-bottom: 30px;
+}
+#parcours h4 {
+  font-size: 2.5rem;
+  color: #ff4e50;
+  margin-left: 20px;
+}
+#parcours h6 {
+  font-style: italic;
+  color: #edca21;
+  margin-left: 20px;
+}
+#parcours p {
+  line-height: 1.9em;
+}
+.timeline {
+  border-top: 3px solid;
+  border-image: linear-gradient(to right, #f9d423, #ff4e50);
+  border-image-slice: 1;
+  margin: 0;
+  padding: 40px;
+  position: relative;
+}
+.timeline:nth-child(1):after {
+  content: '▲';
+  color: #ff4e50;
+  position: absolute;
+  top: -10px;
+  right: -8.5px;
+  box-sizing: content-box !important;
+}
+.timeline:nth-child(1) {
+  border-bottom: 3px solid;
+  border-top: none;
+  width: 85%;
+}
+.timeline:nth-child(2) {
+  border-top: none;
+}
+.timeline:nth-child(odd) {
+  border-right: 3px solid;
+  padding-left: 0;
+}
+.timeline:nth-child(even) {
+  border-left: 3px solid;
+  padding-right: 0;
+}
 
 /*--------------Mobile screen------------------*/
 @media screen and (max-width: 500px) {
@@ -173,8 +233,25 @@ header .button:hover a {
     padding-top: 2rem;
     height: 170px;
   }
+  #langages {
+    width: 90%;
+    padding: 60px 10px 120px 30px;
+  }
   #formation {
-    padding: 60px 0 0 20px;
+    padding: 80px 0 0 20px;
     height: 700px;
+    width: 90%;
+  }
+  #formation h3 {
+    margin-left: 1.5rem;
+  }
+  #autodidacte {
+    padding: 20px 0 0 5%;
+  }
+  #std {
+    padding: 40px 0 0 8%;
+  }
+  #yt {
+    padding: 40px 0 0 11%;
   }
 }
