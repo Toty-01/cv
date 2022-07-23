@@ -73,8 +73,12 @@ h2 {
   justify-content: space-between;
   border-radius: 2rem;
 }
+.messsage-typed {
+  padding-top: 2rem;
+}
 header .button {
    margin: 0 auto;
+   padding-top: 2rem;
 }
 header .button a {
   border: 2px solid black;
@@ -222,16 +226,20 @@ header .button:hover a {
 
 /*--------------Mobile screen------------------*/
 @media screen and (max-width: 500px) {
+  header {
+    height: 115vh;
+  }
   .header-content {
     padding: 1rem;
   }
   .row > .infos {
     width: 90%;
     margin-left: 5%;
+    margin-top: -1.2rem;
   }
   .messsage-typed {
     padding-top: 2rem;
-    height: 170px;
+    height: 185px;
   }
   #langages {
     width: 90%;
@@ -244,6 +252,7 @@ header .button:hover a {
   }
   #formation h3 {
     margin-left: 1.5rem;
+    font-size: 1.5rem;
   }
   #autodidacte {
     padding: 20px 0 0 5%;
@@ -253,5 +262,14 @@ header .button:hover a {
   }
   #yt {
     padding: 40px 0 0 11%;
+  }
+  #parcours {
+    margin: 840px 5% 100px 5%;
+    padding: 40px 20px 170px 30px;
+    background: url(./media/parcours.jpg) no-repeat fixed 50% 0%;
+    background-size: cover;
+  }
+  #parcours h3 {
+    margin-left: 2%;
   }
 }
