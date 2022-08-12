@@ -1,0 +1,23 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Toty-01/cv.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Toty-01/cv/issues"
+  },
+  "homepage": "https://github.com/Toty-01/cv#readme",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "typed.js": "^2.0.12"
+  }
+}
