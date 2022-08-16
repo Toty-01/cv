@@ -659,10 +659,10 @@ input:hover::placeholder, textarea:hover::placeholder, input:focus:hover::placeh
     margin-left: 0.5em;
   }
   .footer-icons {
-    margin-left: 0;
+    margin-left: 0.5em;
   }
   .form-container button {
-    margin-left: 1.4rem;
+    margin: 0 auto;
   }
   textarea, input {
     width: 250px;
