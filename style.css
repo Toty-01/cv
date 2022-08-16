@@ -373,14 +373,125 @@ header .button:hover a {
 }
 /*-------------------------Hobbies------------------------------*/
 #hobbies {
-  background-color: #FF8800;
+  padding: 50px 50px 100px 50px;
+  margin: -80px 2rem -90px 1rem;
   clip-path: polygon(0 0, 100% 4%, 100% 97%, 6% 100%);
-  height: 400px;
-  margin: 0 3.8rem 2rem 1rem;
+  background-color: orange;
 }
 #hobbies h3 {
-  padding: 2rem 4rem;
-  font-size: 2rem;
+  transform: rotate(3.1deg);
+  padding: 4rem 8rem;
+  font-size: 2.5rem;
+  text-shadow: -1px 1px 0px #375E97;
+}
+.pictures {
+  display: flex;
+  justify-content: center;
+}
+.flip-box-back div {
+  margin: 0 auto;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+}
+.flip-box-back div {
+  text-transform: uppercase;
+  padding: 15px;
+  font-size-adjust: auto;
+}
+.flip-box-back {
+  color: white;
+  transform: rotateY(180deg);
+}
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.flip-box {
+  overflow: hidden;
+  background-color: transparent;
+  width: 100%;
+  max-width: 300px;
+  height: 250px;
+  perspective: 500px;
+}
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  height: 250px;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.flip-box-inner img {
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+}
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+/*----------------------------footer----------------------------------*/
+footer {
+  background: url(./media/footer.jpg) 50% 0% no-repeat fixed;
+  background-size: cover;
+  text-align: center;
+  margin-top: 8rem;
+  padding: 160px 50px 50px 50px;
+}
+footer h3 {
+  padding: 0 0 60px 0;
+  font-size: 2.5rem;
+}
+.footer-icons {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  max-width: 60%;
+}
+.network {
+  font-size: 4em;
+  border: 1px solid #b3aca7;
+  padding: 30px 45px;
+  color: #726659;
+  z-index: -1 !important;
+  border-radius: 50%;
+}
+.network:hover {
+  background: #b3aca7;
+  color: #e2dedb;
+  transition: all 0.2s ease-in-out;
+}
+.arrow {
+  width: 50px;
+  margin: -5px auto;
+  animation: arrow linear 1.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes arrow {
+  0% {
+    transform: translateY(0px);
+  }
+  40% {
+    transform: translateY(8px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+.arrow a {
+   font-size: 2em;
+   border: none;
+   color: #726659;
+}
+.arrow:hover i {
+  transform: scale(1.2);
+  transition: 0.5s ease-in-out;
+}
+footer p {
+  font-size: 0.9em;
+  letter-spacing: 0.4em;
 }
 
 
