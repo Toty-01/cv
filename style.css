@@ -651,7 +651,7 @@ input:hover::placeholder, textarea:hover::placeholder, input:focus:hover::placeh
   
   footer h3 {
     font-size: 2rem;
-    margin-left: -1rem;
+    margin-left: 0;
   }
   .network {
     font-size: 2rem;
@@ -659,7 +659,7 @@ input:hover::placeholder, textarea:hover::placeholder, input:focus:hover::placeh
     margin-left: 0.5em;
   }
   .footer-icons {
-    margin-left: -1rem;
+    margin-left: 0;
   }
   .form-container button {
     margin-left: 1.4rem;
