@@ -43,3 +43,4 @@ $(window).scroll(function() {
 //----------  AOS  -----------//
 
 AOS.init();
+
