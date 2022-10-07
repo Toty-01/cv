@@ -458,6 +458,15 @@ footer h3 {
   z-index: -1 !important;
   border-radius: 50%;
 }
+.network.fcbk {
+  border-radius: 30%;
+}
+.network.fcbk:hover, .network.link:hover {
+  color: #3584D5;
+}
+.network.git:hover {
+  color: #111;
+}
 .network:hover, textarea:hover, input:hover, .form-button:hover {
   background: #b3aca7;
   color: #e2dedb;
@@ -658,8 +667,11 @@ input:hover::placeholder, textarea:hover::placeholder, input:focus:hover::placeh
     padding: 14px 20px;
     margin-left: 0.5em;
   }
-  .footer-icons {
-    margin-left: 0.5em;
+  a.network {
+    margin-left: 0;
+  }
+  .footer-icon {
+    justify-content: space-between;
   }
   .form-container button {
     margin: 0 auto;
