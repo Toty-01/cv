@@ -22,11 +22,11 @@ function newGame() {
   document.getElementById('select-player-1').style.border= 'solid blue 4px';
   document.getElementById('select-player-2').style.color = 'black';
   document.getElementById('select-player-2').style.border= 'solid #fd4141 4px';
+  return alert ('The first player at 50 win the game !')
 }
 
 // fonction 'Nouvelle partie'
 document.getElementById('new-game').addEventListener('click', newGame);
-
 
 // RAZ des scores
 function resetScores() {
@@ -38,7 +38,7 @@ function resetScores() {
 
 // Fonction pour changer de joueur
 function nextPlayer(){
-  if (activePlayer === 0){
+  if (activePlayer === 0) {
       activePlayer = 1
       resetScores()
       document.getElementById('select-player-1').style.color = 'black';
@@ -94,7 +94,7 @@ function editNames() {
 // verifier le joueur gagnant et  /  ou changer de joueur si c est pas le cas
 function checkIfWin() {
 
-  if (scores[activePlayer] >= 100) {
+  if (scores[activePlayer] >= 50) {
       alert('Victoire du joueur ' + playerNumber[activePlayer]);
       newGame();
       return true;
