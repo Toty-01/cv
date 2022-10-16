@@ -152,10 +152,11 @@ header .button:hover a {
   text-align: center;
 }
 .data {
-  border: 1.5px solid #00599e;
+  border: 2.5px solid #00599e;
   border-radius: 0.5rem;
   width: 120px;
   margin: 0 4%;
+  text-shadow: 1px 1px #3584D5;
 }
 .counter-value {
   font-size: 2.5rem;
