@@ -239,6 +239,9 @@ header .button:hover a {
 .projet {
   display: flex;
 }
+.sql {
+  width: 20px;
+}
 .projet:nth-child(2){
   margin-left: 3%;
 }
@@ -568,7 +571,7 @@ input:hover::placeholder, textarea:hover::placeholder, input:focus:hover::placeh
 
 
 /*--------------Mobile screen------------------*/
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   header {
     height: 115vh;
   }
@@ -615,7 +618,6 @@ input:hover::placeholder, textarea:hover::placeholder, input:focus:hover::placeh
   #parcours h3 {
     margin-left: 2%;
   }
-
   #portfolio h3{
    font-size: 2rem;
    padding-top: 2rem;
@@ -623,19 +625,28 @@ input:hover::placeholder, textarea:hover::placeholder, input:focus:hover::placeh
   .projet, .projet:nth-child(2), .projet:nth-child(3), .projet:nth-child(4) {
     margin-left: -3rem;
   }
+  .projet {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .cadre {
+    width: 100%;
+  }
   .img-container {
     flex-direction: row;
   }
   .img-container img {
-      margin-left:-11.3rem;
-    }
+    width: auto;
+  }
+  .dice-img {
+    margin-left: -6.2rem;
+  }
   .legende {
     opacity: 1;
   }
   .legende p {
     display: none;
   }
-
   #other-skills h3 {
    font-size: 1.6rem;
    margin-left: -5rem;
