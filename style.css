@@ -555,33 +555,22 @@ input:hover::placeholder, textarea:hover::placeholder, input:focus:hover::placeh
   color: #e2dedb;
 }
 .form-container button {
-  background: transparent;
+  background: transparent !important;
   border: solid 1px #b3aca7;
   border-radius: .5rem;
+  font-weight: 600;
   padding: 20px 75px;
   margin: 14px 1rem -20px 0;
+}
+.form-container button:hover {
+  transition: all 1s;
+  background: #b3aca7 !important;
+  border-radius: .5rem;
+  color: #313131;
 }
 .form-container h4 {
   font-size: 2em;
 }
-#error_message {
-  color: red;
-  border: 1px solid red;
-  max-width: 400px;
-  margin: 40px auto;
-  padding: 15px 15px 10px 15px;
-  box-shadow: 0 0 5px red;
-}
-#success_message {
-  color: green;
-  border: 1px solid green;
-  border-radius: 1rem;
-  max-width: 400px;
-  margin: 150px auto;
-  padding: 50px;
-  box-shadow: 0 0 5px green;
-}
-
 
 /*--------------Mobile screen------------------*/
 @media screen and (max-width: 700px) {
