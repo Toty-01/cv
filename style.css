@@ -592,6 +592,9 @@ input:hover::placeholder, textarea:hover::placeholder, input:focus:hover::placeh
   .header-content {
     padding: 1rem;
   }
+  header .button {
+     padding-top: 0;
+  }
   .row > .infos {
     width: 90%;
     margin-left: 5%;
