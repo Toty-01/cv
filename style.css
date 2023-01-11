@@ -84,17 +84,16 @@ h2 {
 }
 header .button {
    margin: 0 auto;
-   padding-top: 2rem;
+   padding-top: 4rem;
 }
 header .button a {
-  border: 2px solid black;
+  border: none;
   background-color: grey;
   text-decoration: none;
   color: #ffffff;
-  padding: 0.5em 1em;
-  border-radius: 0.5rem;
+  padding: 0.7em 1.2em;
+  border-radius: 0.6rem;
 }
-
 header .button:hover a {
   background: #b3aca7;
   color: #283655;
@@ -256,13 +255,16 @@ header .button:hover a {
   margin-left: 3%;
 }
 .projet:nth-child(3){
-  margin-left: 6%;
-}
-.projet:nth-child(4){
   margin-left: 9%;
 }
+.projet:nth-child(4){
+  margin-left: 15%;
+}
 .projet:nth-child(5){
-  margin-left: 12%;
+  margin-left: 21%;
+}
+.projet:nth-child(6){
+  margin-left: 27%;
 }
 .cadre {
   position: relative;
@@ -632,6 +634,7 @@ input:hover::placeholder, textarea:hover::placeholder, input:focus:hover::placeh
   }
   #portfolio {
     padding: 0;
+    padding-bottom: 2rem;
   }
   #portfolio h3{
    font-size: 2rem;
@@ -648,13 +651,10 @@ input:hover::placeholder, textarea:hover::placeholder, input:focus:hover::placeh
   }
   .projet:nth-child(5) {
     padding-bottom: 3rem;
-    margin-left: 0;
+    margin-left: -2.8rem;
   }
-  .cadre.bas {
-    margin-left: 0.8rem;
-  }
-  .legende.bas {
-    padding-left: 0;
+  .projet:nth-child(6){
+    margin-left: -2.8rem;
   }
   .cadre {
     width: 100%;
