@@ -284,7 +284,7 @@ header .button:hover a {
 .img-container {
   height: 250px;
   width: 90%;
-  max-width: 500px;
+  max-width: 400px;
   overflow: hidden;
   margin: 0 auto;
   box-shadow: 1px 1px 10px #111;
@@ -660,7 +660,7 @@ input:hover::placeholder, textarea:hover::placeholder, input:focus:hover::placeh
     padding-bottom: 3rem;
     margin-left: -2.8rem;
   }
-  .projet:nth-child(6){
+  .projet:nth-child(6), .projet:nth-child(7){
     margin-left: -2.8rem;
   }
   .cadre {
