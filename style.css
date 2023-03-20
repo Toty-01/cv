@@ -104,7 +104,7 @@ header .button:hover a {
 #langages {
   padding: 60px 60px 120px 40px;
   margin: 4rem 0 4rem 6%;
-  height: 750px;
+  height: 820px;
   width: 80%;
   max-width: 800px;
   background: rgba(120,120,120,0.84);
@@ -122,6 +122,9 @@ header .button:hover a {
 }
 .ang-icon {
   width: 20px;
+}
+.symf {
+  width: 1.2rem;
 }
 
 /*--------------------FORMATION------------------------*/
@@ -610,7 +613,7 @@ input:hover::placeholder, textarea:hover::placeholder, input:focus:hover::placeh
   #langages {
     width: 90%;
     padding: 80px 10px 160px 30px;
-    height: 800px;
+    height: 850px;
   }
   #formation {
     padding: 100px 0 0 10px;
@@ -631,7 +634,7 @@ input:hover::placeholder, textarea:hover::placeholder, input:focus:hover::placeh
     padding: 40px 0 0 11%;
   }
   #parcours {
-    margin: 840px 5% 100px 5%;
+    margin: 880px 5% 100px 5%;
     padding: 40px 20px 170px 30px;
     background: url(./media/parcours.jpg) no-repeat fixed 50% 0%;
     background-size: cover;
