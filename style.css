@@ -374,6 +374,47 @@ header .button:hover a {
     transform: translateX(0) translateY(0);
   }
 }
+/*------------------------------ onze --------------------------------------------*/
+
+.styled-section {
+  display: flex;
+  align-items: center;
+}
+.left-section {
+  width: 40%;
+  text-align: center; 
+}
+.left-section img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+.right-section {
+  flex: 1;
+  padding: 0 20px; 
+}
+.right-section h3 {
+  color: #333;
+  font-size: 24px;
+  margin-top: 6rem;
+}
+.right-section h2 {
+  color: #2BB6ED;
+  font-size: 36px;
+}
+.right-section p {
+  color: #666;
+  font-size: 18px; 
+  line-height: 1.6; 
+}
+.right-section ul {
+  list-style-type: none; 
+  padding: 0;
+}
+.right-section li {
+  margin-bottom: 10px; 
+}
+
 /*---------------------------Autres compétences------------------------------*/
 #other-skills {
   margin: 80px 2% -2.2em 2%;
@@ -735,5 +776,24 @@ input:hover::placeholder, textarea:hover::placeholder, input:focus:hover::placeh
   }
   textarea, input {
     width: 250px;
+  }
+  .styled-section {
+    flex-direction: column;
+  }
+  .left-section img {
+    margin-top: 4rem;
+  }
+  .right-section {
+    display: flex;
+    flex: 2;
+    padding: 0 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .right-section h4, .right-section h3, .right-section ul {
+    text-align: center;
+  }
+  .right-section h3 {
+    margin-top: 3rem;
   }
 }
